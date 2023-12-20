@@ -1,0 +1,197 @@
+/* variable definition*/
+
+:root {
+  --SeaDepth: #004762;
+  --SeaDepthDark: #003752;
+  --OceanWave: #8fb8cc;
+  --GoldGradient: linear-gradient(100deg, #DAAB65 5.78%, #F3D494 39.92%, #E4C494 52.78%, #CEA06B 86.42%, #F1BF74 100.77%);
+  --SolidGold: #DAAB65;
+  --Ivory: #eaebdd;
+  --Foam: #eff0ed;
+  --97Black: #2d2a2b;
+}
+
+
+body {
+    background-color:var(--SeaDepthDark);
+    font-family: 'EB Garamond';
+    color: var(--Foam);
+}
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .viewport{
+    position: relative;
+    height: 100vh;
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    grid-row-gap: 5vw;
+
+    justify-content: center;
+    text-align: center;
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+
+  h1 {
+    display: inline-block;
+
+    /*background-clip: text;
+    -webkit-background-clip: text;
+
+    background: url(./Assets/Jellyfish.png) no-repeat center/cover;
+    -webkit-text-fill-color: transparent;*/
+
+    color: var(--OceanWave);
+
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: EB Garamond;
+    font-size: 2.75vw;
+    font-style: normal;
+    line-height: 0.75vw;
+    letter-spacing: 0.15vw;
+    padding-top: 2vh;
+    padding-bottom: 4vh;
+  }
+
+
+  h6{
+    color:var(--Foam);
+
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: EB Garamond;
+    font-size: 1.45vw;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.5vh;
+    letter-spacing: .05vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+  }
+
+  p {
+    color: var(--Foam);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Sweet Sans Pro;
+
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3vh;
+    letter-spacing: 0.5px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+  }
+
+  #information{
+    text-align: left;
+  }
+
+  /* Header & Footer */
+
+  #aureliaLogo{
+    width: 17vw;
+  }
+
+  #relaisLogo{
+    width: 3.5vw;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 5vh;
+  }
+
+  header {
+    position: fixed;
+    top: 5vh;
+  }
+
+  .bodyContents{
+    position:relative;
+    height: 42vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .infoContents{
+    position:relative;
+    height: 20vh;
+
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-column-gap: 6.5vh;
+
+    justify-content: center;
+    padding: 2vw;
+    /* margin-left: 25vh;
+    margin-right: 25vh; */
+    
+  }
+
+  button{
+    display: flex;
+    width: 15vw;
+    padding: 1.5vw 3vw;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 1.5vw;
+    border: 1.5px solid var(--SolidGold);
+    background: var(--Ivory);
+  }
+
+  .buttonText{
+    color: var(--97Black);
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Sweet Sans Pro;
+    font-size: .95vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25vw; /* 171.429% */
+    letter-spacing: .25vw;
+    text-transform: uppercase;
+  }
+
+  hr {
+    background-color: var(--SolidGold);
+    width: 1.5px;
+    height: 25vh;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    hr {
+      background-color: var(--SolidGold);
+      width: 12vh;
+      height: 1px;
+    }
+
+    .infoContents{
+      position:relative;
+      width: 50vw;
+  
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      grid-row-gap: 6.5vh;
+  
+      justify-content: center;
+      padding: 2vw;
+    }
+  }
