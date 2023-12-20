@@ -10,11 +10,10 @@
     --97Black: #2d2a2b;
   }
 
-
 /* Body & Background */
   body {
       background-color:var(--SeaDepth);
-      font-family: 'EB Garamond';
+      font-family: 'EB Garamond', 'Sweet Sans Pro';
       color: var(--Foam);
   }
 
@@ -117,7 +116,7 @@
   p {
     color: var(--Foam);
     font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Sweet Sans Pro;
+    font-family: sweet-sans-pro, sans-serif;
 
     font-size: 1.75vh;
     font-style: normal;
@@ -127,9 +126,9 @@
     padding-top: .5vh;
     padding-bottom: .5vh;
 
-    -webkit-font-smoothing: antialiased;
+    /*-webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-smooth: never;
+    font-smooth: never;*/
   }
 
   /* Header & Footer */
@@ -181,17 +180,18 @@
     .buttonText{
       color: var(--97Black);
       font-feature-settings: 'clig' off, 'liga' off;
-      font-family: Sweet Sans Pro;
-      font-size: 1.75vh;
+      font-family: sweet-sans-pro, sans-serif;
+
+      font-size: 1.5vh;
       font-style: normal;
       font-weight: 400;
       line-height: 1.25vw;
       letter-spacing: .35vw;
       text-transform: uppercase;
 
-      -webkit-font-smoothing: antialiased;
+      /*-webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
-      font-smooth: never;
+      font-smooth: never;*/
     }
 
     a:hover{
