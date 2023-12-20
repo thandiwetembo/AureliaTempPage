@@ -20,15 +20,15 @@
 
   video {
       object-fit:fill;
-      width: 150vw;
-      height: 150vh;
+      width: 100vw;
+      height: 100vh;
       position: fixed;
       top: 0;
       left: 0;
     }
 
 /* Content Sections */
-    .viewport{
+    .viewportContents{
       position: relative;
       height: 100vh;
 
@@ -105,7 +105,7 @@
     font-style: italic;
     font-weight: 500;
     line-height: 4vh;
-    letter-spacing: .05vh;
+    letter-spacing: .1vh;
     padding-top: 1vh;
     padding-bottom: 1vh;
 
@@ -201,7 +201,7 @@
 /* resizing/responsive edits */
 
   @media only screen and (max-width: 750px) {
-    .viewport{
+    .viewportContents{
       position: relative;
       height: 100vh;
 
