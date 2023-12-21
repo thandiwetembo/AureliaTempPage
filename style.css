@@ -19,8 +19,8 @@
 
   video {
       object-fit:fill;
-      width: 100vw;
-      height: 100vh;
+      width: 120vw;
+      height: 120vh;
       position: fixed;
       top: 0;
       left: 0;
@@ -200,7 +200,7 @@
 
 /* resizing/responsive edits */
 
-  @media only screen and (max-width: 750px) {
+  @media only screen and (max-width: 1000px) {
     .viewportContents{
       position: relative;
       height: 100vh;
@@ -213,8 +213,8 @@
 
       justify-content: center;
       text-align: center;
-      margin-left: 20vw;
-      margin-right: 20vw;
+      margin-left: 18vw;
+      margin-right: 18vw;
     }
 
     .infoContents{
