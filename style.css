@@ -25,7 +25,7 @@
       top: 0;
       left: 0;
     }
-
+    
 /* Content Sections */
     .viewportContents{
       position: relative;
@@ -236,5 +236,9 @@
       line-height: 5vh;
       background-size: 350vw;
       background-position: bottom;
+    }
+
+    #information{
+      text-align: center;
     }
   }
